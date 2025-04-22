@@ -5,13 +5,12 @@ app = FastAPI()
 
 users = [
     {
-        'login': "admin",
+        'login': "Admin",
         'name': 'Danylo',
         'surname': 'Franetskyi',
         'age': 17,
     }
 ]
-
 
 class User(BaseModel):
     login: str
